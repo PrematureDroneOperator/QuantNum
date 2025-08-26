@@ -12,9 +12,9 @@ const HeroSection = () => {
       <div className="max-w-4xl mx-auto">
 
         {/* Large Logo */}
-        <div className="mb-8">
+        {/*<div className="mb-8">
           <Logo className="w-32 h-32 mx-auto mb-6" />
-        </div>
+        </div>*/}
         
         <h1 className="text-6xl md:text-7xl font-bold mb-6 tracking-tight">
           <span className="text-red-500">Quant</span>

@@ -48,7 +48,7 @@ export default function Navigation({ onContactClick, activeSection }) {
     {
       label: 'Instagram',
       icon: Instagram,
-      action: () => window.open('https://instagram.com/quantnum', '_blank'),
+      action: () => window.open('https://www.instagram.com/quantnum_iiitp/', '_blank'),
       color: 'hover:text-pink-500'
     },
     {

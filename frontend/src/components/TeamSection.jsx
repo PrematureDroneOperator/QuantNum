@@ -7,7 +7,7 @@ const TeamSection = ({ id, teamMembers = [], onTeamMemberClick }) => {
   const navigate = useNavigate();
   const location = useLocation();
   return (
-   <section id={id} className="min-h-screen py-20 px-6">
+  <section id={id} className="min-h-screen flex items-center justify-center py-20 px-6">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-5xl font-bold text-white mb-6">
@@ -19,7 +19,7 @@ const TeamSection = ({ id, teamMembers = [], onTeamMemberClick }) => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 gap-8">
           {Array.isArray(teamMembers) &&
             teamMembers.map((member) => (
             <TeamMemberCard 

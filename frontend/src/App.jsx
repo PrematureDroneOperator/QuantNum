@@ -133,39 +133,29 @@ export default function App() {
   
   const teamMembers = [
   {
-    id: 'president',
-    name: 'Rahul Sharma',
-    position: 'President',
-    initials: 'RS',
+    id: 'Faculty Advisor',
+    name: 'Dr.Jatin Majitia',
+    position: 'Faculty Advisor',
+    initials: 'JM',
     gradient: 'from-red-400 to-red-600',
     glowGradient: 'from-red-500 to-red-600',
-    imageUrl: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop', // Replace with actual image URL
-    description: 'Leading QuantNum with passion for mathematical excellence. Specializes in advanced calculus and number theory. Currently researching applications of quantum mathematics in computational algorithms.'
+    imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzPSx65ikvibWUzTtbq7uz9_6EhxN9VACUdQ&s', // Replace with actual image URL
+    description: 'Leading QuantNum with passion for mathematical excellence. Specializes in advanced calculus and number theory.'
     
   },
   {
-    id: 'vicepresident',
-    name: 'Priya Patel',
-    position: 'Vice President',
-    initials: 'PP',
+    id: 'Club Head',
+    name: 'Sudhanshu Kumar',
+    position: 'Club Head',
+    initials: 'SK',
     gradient: 'from-gray-600 to-gray-800',
     glowGradient: 'from-purple-500 to-blue-500',
-    imageUrl: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop', // Replace with actual image URL
+    imageUrl: 'Sudhanshusirprofilewebsite.jpg', // Replace with actual image URL
     description: 'Passionate about making mathematics accessible to all. Expert in statistical analysis and machine learning algorithms. Organizes weekly problem-solving sessions and mentors junior members.',
     motto: "In mathematics, you don't understand things. You just get used to them.",
     email: 'vicepresident@quantnum.ac.in',
     phone: '+91 876 543 2109',
     linkedin: 'linkedin.com/in/priyapatel'
-  },
-  {
-    id: 'secretary',
-    name: 'Arjun Singh',
-    position: 'Secretary',
-    initials: 'AS',
-    gradient: 'from-red-600 to-gray-800',
-    glowGradient: 'from-green-500 to-blue-500',
-    imageUrl: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop', // Replace with actual image URL
-    description: 'Manages club operations with mathematical precision. Specializes in discrete mathematics and cryptography. Coordinates with faculty advisors and maintains our resource library.'
   }
   ];
 
@@ -232,7 +222,7 @@ const events = [
     id: 2,
     title: 'Workshop Session',
     description: 'Interactive problem-solving session during our monthly math workshop.',
-    src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXhOy4B-royEmBA2trVcL_m4uhYtxSb9gp1dwtWwWF-aRuiZwhjs13fn1gcwzzrHxb53k&usqp=CAU', // Eiffel Tower
+    src: 'Campus1.jpeg', // Eiffel Tower
     category: 'Workshop',
     date: 'March 10, 2024',
     iconBg: 'bg-purple-500',
@@ -248,7 +238,7 @@ const events = [
     id: 3,
     title: 'Research Presentation',
     description: 'Faculty member presenting cutting-edge research findings at our annual symposium.',
-    src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXhOy4B-royEmBA2trVcL_m4uhYtxSb9gp1dwtWwWF-aRuiZwhjs13fn1gcwzzrHxb53k&usqp=CAU', // Colosseum
+    src: 'campus2.jpeg', // Colosseum
     category: 'Research',
     date: 'December 5, 2024',
     iconBg: 'bg-green-500',
