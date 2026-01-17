@@ -37,7 +37,7 @@ const HeroSection = () => {
           className="bg-red-500 hover:bg-red-600 text-white px-8 py-4 rounded-full text-lg font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-red-500/50 cursor-pointer"
 
         >
-          🚀 Meet Our Team!
+          Meet Our Team!
         </button>
       </div>
       

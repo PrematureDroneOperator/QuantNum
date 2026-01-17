@@ -40,7 +40,7 @@ const TeamSection = ({ id, teamMembers = [], onTeamMemberClick }) => {
               className="bg-red-500 hover:bg-red-600 text-white px-6 py-3 mr-2 rounded-full transition-colors duration-300"
               onClick={() => navigate('/team')}
             >
-              🚀 Meet the rest of our team!
+              Meet the rest of our team!
             </button>
           )}
           <button
